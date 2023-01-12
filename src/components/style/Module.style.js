@@ -18,10 +18,16 @@ export const StyledModule = styled(Box, {
   transition: "opacity 0.5s",
 }));
 
+export const StyledModuleInfoContent = styled("div")({
+  display: "flex",
+  flexDirection: "column",
+  gap: "10px",
+});
+
 export const StyledModuleContent = styled("div")({
   zIndex: 1,
   display: "flex",
-  flexDirection: "column",
+  alignItems: "flex-start",
   gap: "10px",
   padding: "20px",
   backgroundColor: "white",
@@ -29,7 +35,6 @@ export const StyledModuleContent = styled("div")({
 });
 
 export const StyledCloseButton = styled(Button)({
-  alignSelf: "flex-end",
   fontSize: "1rem",
   minWidth: 0,
   padding: 0,

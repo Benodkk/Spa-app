@@ -6,7 +6,7 @@ export const StyledContainer = styled(Container)({
   flexDirection: "column",
   justifyContent: "space-between",
   alignItems: "center",
-  minHeight: "70vh",
+  minHeight: "50vh",
 });
 
 export const StyledUpperContainer = styled("div")({
