@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Spa-app/static/js/main.7b09b144.js",
+    "main.js": "/Spa-app/static/js/main.f5028b93.js",
     "index.html": "/Spa-app/index.html",
-    "main.7b09b144.js.map": "/Spa-app/static/js/main.7b09b144.js.map"
+    "main.f5028b93.js.map": "/Spa-app/static/js/main.f5028b93.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b09b144.js"
+    "static/js/main.f5028b93.js"
   ]
 }
