@@ -48,11 +48,11 @@ const InputFilter = ({ setLoading }) => {
       error={errorFilter ? true : false}
       helperText={errorFilter ? "Can not find element with this ID" : " "}
       type="number"
-      id="standard-basic"
       label="Find element by ID number"
       variant="standard"
       value={filterValue}
       onChange={handleChange}
+      sx={{ width: "25vw" }}
     />
   );
 };
